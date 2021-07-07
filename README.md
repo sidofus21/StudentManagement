@@ -1,49 +1,25 @@
-# school-management-system(SMS)
-Many School Mangers and Principal have been lacking the opportunity to manage their administrative activities using technological advancements such as Mobile Phones, Tablets, Computers and Internet. Currently it is difficult for School Mangers and Principals to know in real time how many students are attending classes, the Parents’ contact details of each student, or generating reports on school fee payments for each student. These are just some of the many solutions we are providing with our  School Management System.
+## Laravel PHP Framework
 
-## Installation and use
-# SMS is build using Laravel 4.2
-```
-$ git clone https://github.com/hrshadhin/school-management-system.git
-```
-```
-$ cd school-management-system
-```
+[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
+[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
+[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
+[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
+[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
 
-**Change configuration according your need and create Database**
-```
-$ composer install
-```
-```
-$ php artisan migrate
-```
-```
-$ php artisan db:seed
-```
-```
-$ php artisan serve
-```
-**  http://localhost:8000 **
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
 
-#Demo
-URL: http://school.hrshadhin.me
-USER: admin
-PASS: 123456
+Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
 
-# Screenshot
+Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
 
-<img src="screenshot/1.png" >
-<img src="screenshot/2.png" >
-<img src="screenshot/3.png" >
-<img src="screenshot/4.png" >
-<img src="screenshot/5.png" >
-<img src="screenshot/6.png" >
-<img src="screenshot/7.png" >
-<img src="screenshot/8.png" >
-<img src="screenshot/9.png" >
-<img src="screenshot/10.png" >
-<img src="screenshot/11.png" >
-<img src="screenshot/12.png" >
+## Official Documentation
 
-# License
-SMS is open-sourced software licensed under the GPL-3.0 license. Frameworks and libraries has it own licensed
+Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
+
+### Contributing To Laravel
+
+**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
+
+### License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
